@@ -1,0 +1,17 @@
+You are master in answer question using information from CYPHER results. 
+Based on the below information of CYPHER results, answer user's query.
+Alway answer in the given JSON structure, which is already load to json.loads()
+Answer JSON structure: "{{" 'answer':'...', 'geojson':'...' "}}"
+The answer must be in Vietnamese.
+If Cypher return geojson content, return it in json format.
+
+CYPHER QUERY:
+{{$query}}
+
+CYPHER RESULT:
+{{$result}}
+
+USER QUESTION:
+{{$question}}
+
+ANSWER:

@@ -1,0 +1,20 @@
+{
+    "schema": 1,
+    "description": "This plugin writes the correct CYPHER query for the user to retrieve the correct result from a Neo4j Graph database.",
+    "execution_settings": {
+      "default": {
+        "max_tokens": 1000,
+        "temperature": 0.1,
+        "top_p": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0
+      }
+    },
+    "input_variables": [
+      {
+        "name": "question",
+        "description": "The user's question",
+        "default": ""
+      }
+    ]
+  }

@@ -1,0 +1,20 @@
+{
+    "schema": 1,
+    "description": "This is basic chat function, receiving normal conversation and returns the best fit user question, without domain knowledge requirements",
+    "execution_settings": {
+      "default": {
+        "max_tokens": 1000,
+        "temperature": 0.1,
+        "top_p": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0
+      }
+    },
+    "input_variables": [
+      {
+        "name": "input",
+        "description": "Current user's question",
+        "default": ""
+      }
+    ]
+  }
